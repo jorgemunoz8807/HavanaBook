@@ -1,0 +1,5 @@
+<?php
+//Persian community 
+//Mohammad Puyandeh 
+
+AUTODIRECTION_BOL_Easing::getInstance()->bindEvents();

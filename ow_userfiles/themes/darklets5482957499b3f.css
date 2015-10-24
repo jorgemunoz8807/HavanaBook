@@ -1,0 +1,8 @@
+a, .ow_content a{color:#4585d2}
+h1, h2, h3, h4, h5, .ow_main_menu li.active a,
+.ow_main_menu li a:hover, .ow_box_menu a.active,
+.ow_box_menu a:hover, .ow_content_menu li.active a, .ow_content_menu li a:hover, .ow_sort_control a.active,
+.ow_sort_control a:hover{color:#4585d2}
+.ow_main_menu li a{color:#999999}
+.ow_header_pic{background-image:url(http://192.168.172.5/havanabook/ow_userfiles/themes/theme_image_17.png)}
+.ow_page_wrap{background-image:url(http://192.168.172.5/havanabook/ow_userfiles/themes/theme_image_18.jpg)}

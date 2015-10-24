@@ -1,0 +1,18 @@
+<?php
+//Persian community 
+//Mohammad Puyandeh 
+
+BOL_LanguageService::getInstance()->addPrefix('gotop', 'Go Top');
+OW::getLanguage()->importPluginLangs(OW::getPluginManager()->getPlugin('gotop')->getRootDir().'langs.zip', 'gotop');
+OW::getPluginManager()->addPluginSettingsRouteName('gotop', 'gotop-admin');
+if ( !OW::getConfig()->configExists('gotop', 'EaseSpeed') ) 
+    OW::getConfig()->addConfig('gotop', 'EaseSpeed', '400', '');
+    
+if ( !OW::getConfig()->configExists('gotop', 'Easing') ) 
+    OW::getConfig()->addConfig('gotop', 'Easing', 'linear', '');
+    
+if ( !OW::getConfig()->configExists('gotop', 'InDelay') ) 
+    OW::getConfig()->addConfig('gotop', 'InDelay', '600', '');
+    
+if ( !OW::getConfig()->configExists('gotop', 'OutDelay') ) 
+    OW::getConfig()->addConfig('gotop', 'OutDelay', '400', '');

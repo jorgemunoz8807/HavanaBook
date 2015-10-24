@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+	<name>Auto direction</name>
+	<key>autodirection</key>
+	<description>auto direction when writing in inputs and textareas</description>
+        <author>Mohammadhzp</author>
+        <authorEmail>m.puyandeh@gmail.com</authorEmail>
+	<authorUrl>http://webcs.ir/oxwall</authorUrl>
+	<developerKey>cfe2b75cc009882ccf77320d7fe7b5ca</developerKey>
+        <build>1</build>
+        <copyright>mohammadhzp</copyright>
+    <license>The BSD Licens</license>
+    <licenseUrl>http://www.opensource.org/licenses/bsd-license.php</licenseUrl>
+</plugin>

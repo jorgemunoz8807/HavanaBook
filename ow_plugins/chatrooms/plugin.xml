@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+	<name>Chatrooms</name>
+	<key>chatrooms</key>
+	<description>Basic, yet intuitive chatrooms for your site's members.</description>
+    <author>FoxTechs</author>
+    <authorEmail>team@foxtechs.comoj.com</authorEmail>
+	<authorUrl>http://foxtechs.comoj.com</authorUrl>
+	<developerKey>75fd9a2383b459b197676b3d2cc58f97</developerKey>
+    <build>21</build>
+    <copyright>(C) 2013 FoxTechs. All rights reserved.</copyright>
+	<license>The BSD License</license>
+    <licenseUrl>http://www.opensource.org/licenses/bsd-license.php</licenseUrl>
+</plugin>

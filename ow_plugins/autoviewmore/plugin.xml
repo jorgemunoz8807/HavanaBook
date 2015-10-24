@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+	<name>Auto ViewMore</name>
+	<key>autoviewmore</key>
+	<description>Auto click viewMore button,Tested on Oxwall 1.6,work with every viewMore button in newsfeed,added an animated loading picture instead of viewMore button</description>
+        <author>Mohammadhzp</author>
+        <authorEmail>m.puyandeh@gmail.com</authorEmail>
+	<authorUrl>http://webcs.ir/oxwall</authorUrl>
+	<developerKey>cfe2b75cc009882ccf77320d7fe7b5ca</developerKey>
+        <build>3000</build>
+        <copyright>mohammadhzp</copyright>
+    <license>The BSD License</license>
+    <licenseUrl>http://www.opensource.org/licenses/bsd-license.php</licenseUrl>
+</plugin>

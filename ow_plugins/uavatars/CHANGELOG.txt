@@ -1,0 +1,9 @@
+Avatar History 1700, 2014-11-26:
+
+Enhancements:
+- Oxwall 1.7.2 support
+- Each avatar change is now tracking in Newsfeed
+- Several minor enhancements
+
+Bug Fixes:
+- Minor fixes

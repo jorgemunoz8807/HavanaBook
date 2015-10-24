@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<prefix name="autoviewmore" label="Auto View More" language_tag="ES" language_label="Spanish(Clone English)"><key name="admin_auto_click"><value>user distance from button of page to auto clicking</value></key><key name="admin_invalid_number_error"><value>Should be a valid Integer value</value></key><key name="admin_save_settings"><value>Save Settings</value></key><key name="admin_settings_title"><value>Auto View More - Settings</value></key><key name="user_save_success"><value>Settings saved successfully</value></key></prefix>

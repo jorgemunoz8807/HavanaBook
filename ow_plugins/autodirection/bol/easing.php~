@@ -1,0 +1,48 @@
+<?php
+
+class AUTODIRECTION_BOL_Easing
+{
+    private static $classInstance;
+
+
+    public static function getInstance()
+    {
+        if ( self::$classInstance === null )
+        {
+            self::$classInstance = new self();
+        }
+
+        return self::$classInstance;
+    }
+
+
+
+    public function bindEvents()
+    {
+    	OW::getEventManager()->bind(OW_EventManager::ON_BEFORE_DOCUMENT_RENDER, array($this, 'index'));
+    }
+
+
+
+
+    public function index()
+    {
+         $js = OW::getPluginManager()->getPlugin('autodirection')->getRootDir() . 'static/js/auto.js';
+         $jsURL = OW::getPluginManager()->getPlugin('autodirection')->getStaticJsUrl() . 'auto.js';
+
+         if ( file_exists($js) )
+         {
+         
+             $document = OW::getDocument();
+             $document->addScript($jsURL, "text/javascript", 100);
+             
+             
+         }
+
+         else
+         {
+            return;
+         }
+    }
+}
+

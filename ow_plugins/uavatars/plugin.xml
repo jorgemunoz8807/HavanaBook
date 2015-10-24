@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<plugin>
+    <name>Avatar History</name>
+    <key>uavatars</key>
+    <description>Stores all user avatars in a special photo album ( "Profile Pictures" by default )</description>
+    <author>Sergey Kambalin</author>
+    <authorEmail>greyexpert@gmail.com</authorEmail>
+    <developerKey>4de7d12343ccb157ece55b3ec3feadf5</developerKey>
+    <build>1700</build>
+    <copyright>(C) 2013 Sergey Kambalin. All rights reserved.</copyright>
+    <license>The BSD License</license>
+    <licenseUrl>http://www.opensource.org/licenses/bsd-license.php</licenseUrl>
+</plugin>

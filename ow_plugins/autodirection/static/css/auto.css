@@ -1,0 +1,8 @@
+.right {
+text-align: right;
+direction: rtl;
+}
+.left {
+text-align: left;
+direction: ltr;
+}
